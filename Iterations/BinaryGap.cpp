@@ -1,12 +1,13 @@
 #include <iostream>
-
-class BinaryGap
+namespace CodilityTasks
 {
-public:
-	static int solution(int N);
-};
-
-int BinaryGap::solution(int N)
+	class BinaryGap
+	{
+	public:
+		static int solution(int N);
+	};
+}
+int CodilityTasks::BinaryGap::solution(int N)
 {
 	if (N < 1 || N > 2147483647)
 	{
@@ -46,7 +47,7 @@ int BinaryGap::solution(int N)
 
 int main()
 {
-	BinaryGap BinaryGap;
+	CodilityTasks::BinaryGap BinaryGap;
 	std::cout << BinaryGap.solution(9) << std::endl;		  // Expected: 2
 	std::cout << BinaryGap.solution(529) << std::endl;		  // Expected: 4
 	std::cout << BinaryGap.solution(51272) << std::endl;	  // Expected: 4
