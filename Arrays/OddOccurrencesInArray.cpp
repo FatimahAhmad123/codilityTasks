@@ -29,14 +29,8 @@ int CodilityTasks::OddOccurencesInArray::solution(std::vector<int> &A)
 
 	int result = 0;
 
-	for (int i : A)
+	for (const int &i : A)
 	{
-		if (i < 1 || i > 1000000000)
-		{
-
-			std::cout << "Error: Element " << i << " is outside the range [1..1,000,000,000]." << std::endl;
-			return 0;
-		}
 		result ^= i;
 	}
 	return result;
@@ -45,7 +39,9 @@ int CodilityTasks::OddOccurencesInArray::solution(std::vector<int> &A)
 int main()
 {
 	CodilityTasks::OddOccurencesInArray OddOccurencesInArray;
-	std::vector<int> A = {9, 9, 1, 1, 2, 4, 4};
+	std::vector<int> A = {9, 2, 9, 1, 2, 4, 4};
+	// {2, 2, 3, 4, 4, 9, 9}
+
 	int result = OddOccurencesInArray.solution(A);
 
 	std::cout << "The Element only occuring once is: " << result << std::endl;
