@@ -1,12 +1,4 @@
-#include <iostream>
-namespace CodilityTasks
-{
-	class BinaryGap
-	{
-	public:
-		static int solution(int N);
-	};
-}
+#include "BinaryGap.h"
 int CodilityTasks::BinaryGap::solution(int N)
 {
 	if (N < 1 || N > 2147483647)
