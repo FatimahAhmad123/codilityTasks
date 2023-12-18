@@ -1,14 +1,4 @@
-#include <iostream>
-#include <vector>
-
-namespace CodilityTasks
-{
-	class PermMissingElem
-	{
-	public:
-		int solution(std::vector<int> &A);
-	};
-}
+#include "PermMissingElem.h"
 
 int CodilityTasks::PermMissingElem::solution(std::vector<int> &A)
 {

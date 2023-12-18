@@ -1,14 +1,4 @@
-#include <iostream>
-#include <vector>
-
-namespace CodilityTasks
-{
-	class FrogJmp
-	{
-	public:
-		int solution(int X, int Y, int D);
-	};
-}
+#include "FrogJmp.h"
 
 int CodilityTasks::FrogJmp::solution(int X, int Y, int D)
 {
