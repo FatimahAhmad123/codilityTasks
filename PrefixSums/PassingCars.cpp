@@ -1,15 +1,4 @@
-#include <iostream>
-#include <vector>
-
-namespace CodilityTasks
-{
-	class PrefixSum
-
-	{
-	public:
-		int solution(std::vector<int> &A);
-	};
-}
+#include "PassingCars.h"
 
 int CodilityTasks::PrefixSum::solution(std::vector<int> &A)
 {

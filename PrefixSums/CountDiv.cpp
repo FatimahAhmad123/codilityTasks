@@ -1,15 +1,4 @@
-#include <iostream>
-#include <vector>
-
-namespace CodilityTasks
-{
-	class CountDiv
-
-	{
-	public:
-		int solution(int A, int B, int K);
-	};
-}
+#include "CountDiv.h"
 
 int CodilityTasks::CountDiv::solution(int A, int B, int K)
 {
