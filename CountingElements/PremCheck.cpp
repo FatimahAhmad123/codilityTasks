@@ -1,15 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-namespace CodilityTasks
-{
-	class PermCheck
-	{
-	public:
-		int solution(std::vector<int> &A);
-	};
-}
+#include "PermCheck.h"
 
 int CodilityTasks::PermCheck::solution(std::vector<int> &A)
 {

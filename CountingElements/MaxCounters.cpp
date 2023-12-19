@@ -1,16 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-namespace CodilityTasks
-{
-	class MaxCounters
-
-	{
-	public:
-		std::vector<int> solution(int N, std::vector<int> &A);
-	};
-}
+#include "MaxCounters.h"
 
 std::vector<int> CodilityTasks::MaxCounters::solution(int N, std::vector<int> &A)
 {
