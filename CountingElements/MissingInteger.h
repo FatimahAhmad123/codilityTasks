@@ -1,5 +1,5 @@
-#ifndef MISSINGINTEGER.H
-#define MISSINGINTEGER .H
+#ifndef MISSINGINTEGER_H
+#define MISSINGINTEGER_H
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -13,4 +13,4 @@ namespace CodilityTasks
 		int solution(std::vector<int> &A);
 	};
 }
-#endif MISSINGINTEGER.H
+#endif MISSINGINTEGER_H

@@ -1,5 +1,5 @@
-#ifndef PERMCHECK.H
-#define PERMCHECK .H
+#ifndef PERMCHECK_H
+#define PERMCHECK_H
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -12,4 +12,4 @@ namespace CodilityTasks
 		int solution(std::vector<int> &A);
 	};
 }
-#endif PERMCHECK.H
+#endif PERMCHECK_H

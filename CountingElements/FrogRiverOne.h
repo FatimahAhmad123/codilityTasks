@@ -1,5 +1,5 @@
-#ifndef FROGRIVERONE.H
-#define FROGRIVERONE .H
+#ifndef FROGRIVERONE_H
+#define FROGRIVERONE_H
 #include <iostream>
 #include <vector>
 #include <set>
@@ -12,4 +12,4 @@ namespace CodilityTasks
 		int solution(int X, std::vector<int> &A);
 	};
 }
-#endif FROGRIVERONE.H
+#endif FROGRIVERONE_H

@@ -1,5 +1,5 @@
-#ifndef MAXCOUNTERS.H
-#define MAXCOUNTERS .H
+#ifndef MAXCOUNTERS_H
+#define MAXCOUNTERS_H
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -13,4 +13,4 @@ namespace CodilityTasks
 		std::vector<int> solution(int N, std::vector<int> &A);
 	};
 }
-#endif MAXCOUNTERS.H
+#endif MAXCOUNTERS_H
