@@ -1,5 +1,5 @@
-#ifndef DISTINCT.H
-#define DISTINCT .H
+#ifndef DISTINCT_H
+#define DISTINCT_H
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -13,4 +13,4 @@ namespace CodilityTasks
 		int solution(std::vector<int> &A);
 	};
 }
-#endif DISTINCT.H
+#endif DISTINCT_H
