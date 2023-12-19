@@ -1,5 +1,5 @@
-#ifndef COUNTDIV.H
-#define COUNTDIV .H
+#ifndef COUNTDIV_H
+#define COUNTDIV_H
 #include <iostream>
 #include <vector>
 
@@ -12,4 +12,4 @@ namespace CodilityTasks
 		int solution(int A, int B, int K);
 	};
 }
-#endif COUNTDIV.H
+#endif COUNTDIV_H
