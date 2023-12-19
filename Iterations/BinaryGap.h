@@ -1,3 +1,5 @@
+#ifndef BINARYGAP_H
+#define BINARYGAP_H
 #include <iostream>
 namespace CodilityTasks
 {
@@ -7,3 +9,4 @@ namespace CodilityTasks
 		static int solution(int N);
 	};
 }
+#endif BINARYGAP_H
