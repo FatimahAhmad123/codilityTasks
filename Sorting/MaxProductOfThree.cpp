@@ -1,16 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-namespace CodilityTasks
-{
-	class MaxProductOfThree
-
-	{
-	public:
-		int solution(std::vector<int> &A);
-	};
-}
+#include "MaxProductOfThree.h"
 
 int CodilityTasks::MaxProductOfThree::solution(std::vector<int> &A)
 {

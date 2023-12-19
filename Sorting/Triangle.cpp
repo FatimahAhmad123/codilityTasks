@@ -1,16 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-namespace CodilityTasks
-{
-	class Triangle
-
-	{
-	public:
-		int solution(std::vector<int> &A);
-	};
-}
+#include "Triangle.h"
 
 int CodilityTasks::Triangle::solution(std::vector<int> &A)
 {

@@ -1,16 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-namespace CodilityTasks
-{
-	class Distinct
-
-	{
-	public:
-		int solution(std::vector<int> &A);
-	};
-}
+#include "Distinct.h"
 
 int CodilityTasks::Distinct::solution(std::vector<int> &A)
 {
