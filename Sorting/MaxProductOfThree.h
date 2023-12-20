@@ -13,4 +13,4 @@ namespace CodilityTasks
 		int solution(std::vector<int> &A);
 	};
 }
-#endif MAXPRODUCTOFTHREE_H
+#endif

@@ -13,4 +13,4 @@ namespace CodilityTasks
 		int solution(std::vector<int> &A);
 	};
 }
-#endif DISTINCT_H
+#endif

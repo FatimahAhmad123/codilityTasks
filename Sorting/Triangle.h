@@ -13,4 +13,4 @@ namespace CodilityTasks
 		int solution(std::vector<int> &A);
 	};
 }
-#endif TRIANGLE_H
+#endif
