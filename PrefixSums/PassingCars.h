@@ -1,5 +1,5 @@
-#ifndef COUNTDIV_H
-#define COUNTDIV_H
+#ifndef PASSING_CARS_H
+#define PASSING_CARS_H
 #include <iostream>
 #include <vector>
 
