@@ -12,4 +12,4 @@ namespace CodilityTasks
 		int solution(int A, int B, int K);
 	};
 }
-#endif COUNTDIV_H
+#endif

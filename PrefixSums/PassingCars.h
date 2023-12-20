@@ -12,4 +12,4 @@ namespace CodilityTasks
 		int solution(std::vector<int> &A);
 	};
 }
-#endif COUNTDIV_H
+#endif
