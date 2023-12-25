@@ -11,4 +11,4 @@ namespace CodilityTasks
 		int solution(int X, int Y, int D);
 	};
 }
-#endif FROGJMP_H
+#endif

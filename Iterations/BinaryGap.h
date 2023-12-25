@@ -9,4 +9,4 @@ namespace CodilityTasks
 		static int solution(int N);
 	};
 }
-#endif BINARYGAP_H
+#endif

@@ -10,4 +10,4 @@ namespace CodilityTasks
 		static std::vector<int> solution(std::vector<int> &A, int k);
 	};
 }
-#endif CYCLICROTATION_H
+#endif

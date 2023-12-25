@@ -12,4 +12,4 @@ namespace CodilityTasks
 		int solution(int X, std::vector<int> &A);
 	};
 }
-#endif FROGRIVERONE_H
+#endif

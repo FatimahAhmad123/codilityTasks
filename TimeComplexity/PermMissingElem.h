@@ -11,4 +11,4 @@ namespace CodilityTasks
 		int solution(std::vector<int> &A);
 	};
 }
-#endif PERM_MISSING_ELEM_H
+#endif

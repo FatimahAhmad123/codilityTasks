@@ -13,4 +13,4 @@ namespace CodilityTasks
 		std::vector<int> solution(int N, std::vector<int> &A);
 	};
 }
-#endif MAXCOUNTERS_H
+#endif
