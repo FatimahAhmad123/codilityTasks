@@ -1,15 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <cmath>
-
-namespace CodilityTasks
-{
-	class TapeEquilibrium
-	{
-	public:
-		int solution(std::vector<int> &A);
-	};
-}
+#include "TapeEquilibrium.h"
 
 int CodilityTasks::TapeEquilibrium::solution(std::vector<int> &A)
 {
