@@ -1,4 +1,4 @@
-#include "OddOccurencesInArray.h"
+#include "OddOccurrencesInArray.h"
 
 int CodilityTasks::OddOccurencesInArray::solution(std::vector<int> &A)
 {

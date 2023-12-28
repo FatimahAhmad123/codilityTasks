@@ -31,8 +31,6 @@ int CodilityTasks::Brackets::solution(std::string &s)
 		}
 	}
 
-	return stack.empty() ? 1 : 0; // Check if there are any unmatched opening brackets
-
 	return stack.empty() ? 1 : 0;
 }
 

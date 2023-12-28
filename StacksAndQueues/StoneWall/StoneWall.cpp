@@ -16,8 +16,15 @@ int CodilityTasks::StoneWall::solution(std::vector<int> &H)
 
 		if (heightStack.empty() || h > heightStack.top())
 		{
-			heightStack.push(h);
-		}
+			heightStack.push(h); // 8      0
+		}						 // 8      0
+								 // 5      1
+								 // 5,7    1
+								 // 5,7,9  1
+								 // 5,7,8  2
+								 // 5,7    3
+								 // 5,4    4
+								 // 5,8    5
 	}
 
 	return blockCount + heightStack.size();

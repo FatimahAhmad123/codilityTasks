@@ -34,5 +34,11 @@ int main()
 {
 	CodilityTasks::MinAvgTwoSlice MinAvgTwoSlice;
 
+	std::vector<int> A = {4, 2, 2, 5, 1, 5, 8};
+
+	int result = MinAvgTwoSlice.solution(A);
+
+	std::cout << "Index of the slice with the minimum average: " << result << std::endl;
+
 	return 0;
 }

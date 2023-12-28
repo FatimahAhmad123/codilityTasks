@@ -11,14 +11,14 @@ int CodilityTasks::NumberOfDiscIntersections::solution(std::vector<int> &A)
 	for (int i = 0; i < N; ++i)
 	{
 		startPoints[i] = i - static_cast<long long>(A[i]);
-		endPoints[i] = i + static_cast<long long>(A[i]);
+		endPoints[i] = i + static_cast<long long>(A[i]); // start and end points of cirlces
 	}
 
 	std::sort(startPoints.begin(), startPoints.end());
 
 	for (int i = 0; i < N; ++i)
 	{
-		int rightmostIndex = std::upper_bound(startPoints.begin(), startPoints.end(), endPoints[i]) - startPoints.begin();
+		int rightmostIndex = std::upper_bound(startPoints.begin(), startPoints.end(), endPoints[i]) - startPoints.begin(); // first item greater than a specific value
 
 		intersections += (rightmostIndex - i - 1);
 
